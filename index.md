@@ -10,12 +10,12 @@ Welcome to my Computer Science capstone ePortfolio. This page presents my profes
 
 - [Professional Self-Assessment](#professional-self-assessment)
 - [Capstone Project Overview](#capstone-project-overview)
+- [Course Outcomes](#course-outcomes)
 - [Original Artifact](#original-artifact)
 - [Code Review](#code-review)
 - [Enhancement One: Software Design and Engineering](#enhancement-one-software-design-and-engineering)
 - [Enhancement Two: Algorithms and Data Structures](#enhancement-two-algorithms-and-data-structures)
 - [Enhancement Three: Databases and Security](#enhancement-three-databases-and-security)
-- [Course Outcomes](#course-outcomes)
 
 ---
 
@@ -52,6 +52,16 @@ For my capstone, I enhanced an existing thermostat application in three areas:
 3. **Databases and Security:** Added SQLite persistence through a `DatabaseManager`, parameterized SQL operations, database error handling, and more appropriate production debugging settings.
 
 Together, these changes build on the original project rather than replacing it. They demonstrate how thoughtful design, useful data, and secure data handling can improve a working application.
+
+## Course Outcomes
+
+The capstone enhancements collectively demonstrate the five CS-499 course outcomes:
+
+1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science
+2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
+3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices
+4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals
+5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
 
 ## Original Artifact
 
@@ -265,16 +275,6 @@ I believe I met the course outcomes I planned to address with this enhancement. 
 One of the most important things I learned from this enhancement was that adding a database is more than simply creating a place to store information. I had to think about what information the thermostat actually needed, how that information should be organized, and how the rest of the application should interact with the database. I also learned the importance of considering errors that could occur during database operations. Adding error handling to the database methods helped me understand that a computing solution should account for problems that may occur rather than assuming every operation will succeed. Another challenge was determining what security measures were appropriate for this project. I initially considered different ways to protect the data, but I realized that not every security feature is necessary for a small, local thermostat application. Instead, I focused on practices that addressed actual risks, such as parameterized queries, controlled database access, limited data collection, and appropriate error handling. This process helped me understand that good database design involves making decisions based on the needs and risks of the application rather than adding complexity simply for the sake of adding features.
 
 ---
-
-## Course Outcomes
-
-The capstone enhancements collectively demonstrate the five CS-499 course outcomes:
-
-1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science
-2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
-3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices
-4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals
-5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
 
 ## Project Files and Navigation
 
