@@ -6,3 +6,8 @@
 body{
   background-color: #E8EEE9;
 }
+
+/* Hide the theme-generated header */
+header {
+  display: none;
+}
