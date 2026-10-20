@@ -278,6 +278,32 @@ The capstone enhancements collectively demonstrate the five CS-499 course outcom
 
 ## Project Files and Navigation
 
-Use the sections above to review the project in order, from the original artifact through each enhancement. The code snippets on this page illustrate representative changes from the submitted Python files. The complete project files can be added to this GitHub repository alongside this page so that visitors can review the full implementation.
+The following folders contain the original thermostat project and the three enhanced versions developed for my capstone. Each version demonstrates the progression of the application as I improved its organization, added temperature-preference logic, and implemented persistent database storage.
 
-[Return to the top](#whytney-caton--cs-499-computer-science-capstone)
+### Original Artifact
+
+The original project was developed for CS-350: Emerging Systems Architectures and Technologies.
+
+- [View Original Thermostat Files](https://github.com/WhytCat4/whytcat4.github.io/tree/main/original-artifact)
+
+### Enhancement One: Software Design and Engineering
+
+This version separates the thermostat's responsibilities into modules to improve organization, readability, and maintainability.
+
+- [View Enhancement One Files](https://github.com/WhytCat4/whytcat4.github.io/tree/main/enhancement-one)
+
+### Enhancement Two: Algorithms and Data Structures
+
+This version introduces the temperature-preference algorithm, allowing the thermostat to use previous preferences organized by time period.
+
+- [View Enhancement Two Files](https://github.com/WhytCat4/whytcat4.github.io/tree/main/enhancement-two)
+
+### Enhancement Three: Databases and Security
+
+This version adds SQLite database functionality to store and retrieve temperature preferences while incorporating database access controls and error handling.
+
+- [View Enhancement Three Files](https://github.com/WhytCat4/whytcat4.github.io/tree/main/enhancement-three)
+
+---
+
+[Return to the top of the page](#whytcat4-computer-science-capstone)
