@@ -16,6 +16,7 @@ Welcome to my Computer Science capstone ePortfolio. This page presents my profes
 - [Enhancement One: Software Design and Engineering](#enhancement-one-software-design-and-engineering)
 - [Enhancement Two: Algorithms and Data Structures](#enhancement-two-algorithms-and-data-structures)
 - [Enhancement Three: Databases and Security](#enhancement-three-databases-and-security)
+- [Project Files and Navigation](#project-files-and-navigation)
 
 ---
 
